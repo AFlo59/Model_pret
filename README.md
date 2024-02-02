@@ -2,6 +2,7 @@
 
 Projet crée par :
 Florian Abadi
+&
 Simon Riquart
 
 Lien du dataset utilisé :
