@@ -1,0 +1,49 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.log
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+target/
+
+# Fichiers de configuration pour Visual Studio Code
+.vscode/
+
+# Fichiers de configuration pour IntelliJ IDEA
+.idea/
+
+# Fichiers de construction Java
+build/
+
+# Fichiers de compilation C++
+*.out
+*.o
+
+# Fichiers de sauvegarde
+*~
+
+# Fichiers de sauvegarde automatique de certains éditeurs
+.*.swp
+
+# Fichier de configuration pour Bash
+.bash_history
+.bashrc
+
+# Fichier de configuration pour Zsh
+.zshrc
+
+# Fichier de configuration local
+.env
+
+# Fichier avec des clés d'API ou des informations sensibles
+secret.txt
