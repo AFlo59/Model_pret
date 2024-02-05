@@ -14,7 +14,9 @@ def generate_description(df):
     dfDesc = pd.DataFrame(columns=['feature', 'data_type', 'null', 'nulPct', 'unique', 'uniqueSample'], data=list_item)
     return dfDesc
 
-
+def currency_cleaning(x):
+    x = x[1:].replace(',','')
+    return x
 
 
 
