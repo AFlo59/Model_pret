@@ -47,3 +47,6 @@ build/
 
 # Fichier avec des clés d'API ou des informations sensibles
 secret.txt
+
+# CSV Chargé
+*.csv
