@@ -51,3 +51,6 @@ secret.txt
 
 # CSV Chargé
 *.csv
+
+# Model Chargé
+.pckl
