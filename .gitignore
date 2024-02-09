@@ -45,6 +45,8 @@ build/
 # Fichier de configuration local
 *.env
 *.venv
+.env
+.venv
 
 # Fichier avec des clés d'API ou des informations sensibles
 secret.txt
