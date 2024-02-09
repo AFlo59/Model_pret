@@ -43,6 +43,8 @@ build/
 .zshrc
 
 # Fichier de configuration local
+*.env
+*.venv
 .env
 .venv
 
@@ -53,4 +55,4 @@ secret.txt
 *.csv
 
 # Model Chargé
-.pckl
+*.pckl
