@@ -119,6 +119,9 @@ selected_description = st.selectbox("Sélectionnez une description NAICS", list(
 naics = naics_mapping[selected_description]
 st.write("Numéro NAICS :", naics)
 
+import streamlit as st
+from datetime import datetime
+
 def convert_date_format(date_str):
     try:
         date_obj = datetime.strptime(date_str, "%d/%b/%y")
@@ -126,12 +129,10 @@ def convert_date_format(date_str):
         return formatted_date
     except ValueError:
         return ""
-    
+st.write("Veuillez entrer la date d'approbation au format 'jour/mois/année' (ex: 29/jan/96)")
 approval_date_str = st.text_input('Date d\'approbation (ex: 29/jan/96)')
 approval_date = convert_date_format(approval_date_str)
-st.write(f"Date : {approval_date}")
 
-approval_date = st.date_input('Date d\'approbation')
 approval_fy = st.number_input('Année d\'approbation', min_value=1970, max_value=2030)
 term = st.number_input('Durée du prêt (en mois)')
 no_emp = st.number_input('Nombre d\'employés')
