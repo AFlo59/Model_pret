@@ -15,7 +15,7 @@ sys.path.append('../Module')
 folder_path = '../Model'
 
 from pickle_job import charger_modele
-#loaded_model = charger_modele(folder_path + '/catboost_model.pkl')
+model = charger_modele(folder_path + '/catboost_model.pkl')
 
 # Titre de l'application
 st.title('Prédiction de prêt')
